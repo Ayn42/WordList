@@ -15,6 +15,15 @@
 		EFD8798424613F77009AF0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD8798224613F77009AF0D7 /* LaunchScreen.storyboard */; };
 		EFD8798F24613F77009AF0D7 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8798E24613F77009AF0D7 /* WordListTests.swift */; };
 		EFD8799A24613F77009AF0D7 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8799924613F77009AF0D7 /* WordListUITests.swift */; };
+		EFD879AB24613FBE009AF0D7 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD879A824613FBE009AF0D7 /* word_blank.png */; };
+		EFD879AC24613FBE009AF0D7 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD879A924613FBE009AF0D7 /* fin.png */; };
+		EFD879AD24613FBE009AF0D7 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD879AA24613FBE009AF0D7 /* title_logo.png */; };
+		EFD879AF24614CAF009AF0D7 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879AE24614CAF009AF0D7 /* QuestionViewController.swift */; };
+		EFD879B124614CF8009AF0D7 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879B024614CF8009AF0D7 /* FinishViewController.swift */; };
+		EFD879B324614D50009AF0D7 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879B224614D50009AF0D7 /* ListTableViewController.swift */; };
+		EFD879B524614D95009AF0D7 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879B424614D95009AF0D7 /* AddViewController.swift */; };
+		EFD879B7246160EB009AF0D7 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD879B6246160EB009AF0D7 /* ListTableViewCell.swift */; };
+		EFD879BB2462B42B009AF0D7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD879BA2462B42B009AF0D7 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		EFD8799524613F77009AF0D7 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD8799924613F77009AF0D7 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		EFD8799B24613F77009AF0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD879A824613FBE009AF0D7 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		EFD879A924613FBE009AF0D7 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		EFD879AA24613FBE009AF0D7 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		EFD879AE24614CAF009AF0D7 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		EFD879B024614CF8009AF0D7 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		EFD879B224614D50009AF0D7 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		EFD879B424614D95009AF0D7 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		EFD879B6246160EB009AF0D7 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		EFD879BA2462B42B009AF0D7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +117,18 @@
 		EFD8797624613F72009AF0D7 /* WordList */ = {
 			isa = PBXGroup;
 			children = (
+				EFD879BA2462B42B009AF0D7 /* icon.png */,
 				EFD8797724613F72009AF0D7 /* AppDelegate.swift */,
 				EFD8797924613F72009AF0D7 /* SceneDelegate.swift */,
 				EFD8797B24613F72009AF0D7 /* ViewController.swift */,
 				EFD8797D24613F72009AF0D7 /* Main.storyboard */,
+				EFD879B224614D50009AF0D7 /* ListTableViewController.swift */,
+				EFD879B424614D95009AF0D7 /* AddViewController.swift */,
+				EFD879B6246160EB009AF0D7 /* ListTableViewCell.swift */,
+				EFD879B024614CF8009AF0D7 /* FinishViewController.swift */,
+				EFD879AE24614CAF009AF0D7 /* QuestionViewController.swift */,
 				EFD8798024613F77009AF0D7 /* Assets.xcassets */,
+				EFD879A724613FBE009AF0D7 /* WordList素材 */,
 				EFD8798224613F77009AF0D7 /* LaunchScreen.storyboard */,
 				EFD8798524613F77009AF0D7 /* Info.plist */,
 			);
@@ -126,6 +151,16 @@
 				EFD8799B24613F77009AF0D7 /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		EFD879A724613FBE009AF0D7 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				EFD879A824613FBE009AF0D7 /* word_blank.png */,
+				EFD879A924613FBE009AF0D7 /* fin.png */,
+				EFD879AA24613FBE009AF0D7 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD879AB24613FBE009AF0D7 /* word_blank.png in Resources */,
+				EFD879BB2462B42B009AF0D7 /* icon.png in Resources */,
+				EFD879AD24613FBE009AF0D7 /* title_logo.png in Resources */,
 				EFD8798424613F77009AF0D7 /* LaunchScreen.storyboard in Resources */,
 				EFD8798124613F77009AF0D7 /* Assets.xcassets in Resources */,
+				EFD879AC24613FBE009AF0D7 /* fin.png in Resources */,
 				EFD8797F24613F72009AF0D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD879B124614CF8009AF0D7 /* FinishViewController.swift in Sources */,
+				EFD879B7246160EB009AF0D7 /* ListTableViewCell.swift in Sources */,
 				EFD8797C24613F72009AF0D7 /* ViewController.swift in Sources */,
+				EFD879B524614D95009AF0D7 /* AddViewController.swift in Sources */,
 				EFD8797824613F72009AF0D7 /* AppDelegate.swift in Sources */,
+				EFD879B324614D50009AF0D7 /* ListTableViewController.swift in Sources */,
+				EFD879AF24614CAF009AF0D7 /* QuestionViewController.swift in Sources */,
 				EFD8797A24613F72009AF0D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,12 +479,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = WordList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.Ayanon.Fukui.WordList;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Fukui.Ayanon.WordList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = WordList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.Ayanon.Fukui.WordList;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Fukui.Ayanon.WordList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
